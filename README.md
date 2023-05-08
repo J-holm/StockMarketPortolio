@@ -1,7 +1,7 @@
 # Stock Market Portolio
 
 (Work in Progress)
-The code constructs an optimized portfolio based on historical stock data from the S&P 500 by fetching a list of the companies from the Wikipedia page and extracts ticker symbols, and historical stock data from Yahoo Finance. Necessary libraries include yfinance, pandas, numpy, matplotlib, and PyPortfolioOpt.
+The code constructs an optimized portfolio based on historical stock data from the S&P 500 by fetching a list of the companies and extracting ticker symbols, and historical stock data from Yahoo Finance. Necessary libraries include yfinance, pandas, numpy, matplotlib, and PyPortfolioOpt.
 
 The close prices are extracted from the downloaded stock data for each ticker symbol and using the PyPortfolioOpt library, the code calculates the expected returns (mu) and covariance matrix (S) of the stocks based on their historical adjusted close prices. 
 
